@@ -3,10 +3,9 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
     
   - title: "CV"
     url: /files/Katayama_Federal_Resume.pdf    
 
+  - title: "Interests"
+    url: /interests/
