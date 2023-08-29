@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Taro Katayama"
-  avatar           : "profile.png"
+  name             : "Taro Katayama (He/Him)"
+  avatar           : "IMG_6862.png"
   bio              : "Aspiring data scientist interested in water related issues- especially water rights and water use/sustainability."
   location         : "Laramie, Wyoming"
-  employer         :
+  employer         : "National Park Service | Pacific West Regional Office"
   pubmed           : 
   googlescholar    : 
   email            : "Tarokatayama1@gmail.com"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
