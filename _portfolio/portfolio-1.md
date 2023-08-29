@@ -1,6 +1,6 @@
 ---
 title: "Master's Project: Water Scarcity & Mine Locations"
-excerpt: "![](images/MP.png)"
+excerpt: "src='/images/MP.png' alt='Master's Project' width='500' height='500' style='display: block; margin: 0 auto;'>"
 collection: portfolio
 ---
 
