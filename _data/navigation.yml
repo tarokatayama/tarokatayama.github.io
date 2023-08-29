@@ -7,5 +7,8 @@ main:
   - title: "CV"
     url: /files/Katayama_Federal_Resume.pdf    
 
+  - title: "Talks"
+    url: /talks/
+    
   - title: "Interests"
     url: /interests/
