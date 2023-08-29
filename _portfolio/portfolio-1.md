@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Master's Project: Water Scarcity & Mine Locations"
+excerpt: "insert photo"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Analysis part of Master's Project with Rivian Automotive, looking at the water usage impact of mining for battery minerals. Analysis performed included an ArcGIS Pro water scarcity map, as well as an ArcGIS online dashboard, which shows mines with high water usage and underlying water scarcity issues.
