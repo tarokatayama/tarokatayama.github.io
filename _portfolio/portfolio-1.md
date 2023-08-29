@@ -1,10 +1,8 @@
 ---
 title: "Master's Project: Water Scarcity & Mine Locations"
-excerpt: "Analysis part of Master's Project with Rivian Automotive, looking at the water usage impact of mining for battery minerals. Analysis performed included an ArcGIS Pro water scarcity map, as well as an ArcGIS online dashboard, which shows mines with high water usage and underlying water scarcity issues. 
-
-
-<img src='/images/MP.png' alt='Master's Project' width='500' height='500' style='display: block; margin: 0 auto;'>
-"
+excerpt: "Analysis part of Master's Project with Rivian Automotive, looking at the water usage impact of mining for battery minerals. Analysis performed included an ArcGIS Pro water scarcity map, as well as an ArcGIS online dashboard, which shows mines with high water usage and underlying water scarcity issues. <br/><img src='/images/MP.png'>"
 
 collection: portfolio
 ---
+
+https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758
