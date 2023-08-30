@@ -5,4 +5,4 @@ excerpt: "Analysis part of Master's Project with Rivian Automotive, looking at t
 collection: portfolio
 ---
 
-https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758
+[Dashboard showing Water Scarcity & Mine Location](https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758)
