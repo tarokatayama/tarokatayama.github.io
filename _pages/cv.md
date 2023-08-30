@@ -8,3 +8,7 @@ redirect_from:
 ---
 
 ### Email: Tarokatayama1@gmail.com
+
+| Email | LinkedIn | Snapchat |
+| -------- | -------- | -------- |
+| tarokatayama1@gmail.com | linkedin.com/in/taro-katayama-704b94173 | Lol You Wish |
