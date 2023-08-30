@@ -2,10 +2,9 @@
 title: "Naturally Speaking- Coastal Fog a Lifeline for Native Plants"
 collection: talks
 type: "Talk"
-permalink: /talks/2012-03-01-talk-1
-venue: "Cabrillo National Monument Auditorium"
+permalink: [](https://www.youtube.com/watch?v=0B5EOmPa89A&ab_channel=CabrilloNationalMonumentFoundation)venue: "Cabrillo National Monument Auditorium")
 date: 2022-07-15
 location: "Cabrillo National Monument"
 ---
 
-This is a description of your talk, which is a markdown files that can be all markdown-ified like any other post. Yay markdown!
+How important is coastal fog? To San Diego’s native plants, coastal fog can be a lifeline – in the local hot, dry climate many plants harvest this water source for survival. In this Naturally Speaking science talk, environmental scientist Taro Katayama and geoscientist Brent Wilder explores the connection between plants and fog, how we measure this elusive moisture, and what trends might be shifting in a changing world.
