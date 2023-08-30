@@ -14,5 +14,4 @@ main:
     url: /markdown/
 
   - title: "Contact Info"
-    url: /contact/
-
+    url: /_pages/contact.md
