@@ -18,5 +18,7 @@ Currently I am a science communication fellow for the National Park Service at t
 
 Some of my personal efforts at making science communication more engaging and fun is through the use of TikTok:
 
+This tiktok is an instructional video of how to collect data from the fog monitoring station I set up at Cabrillo National Monument.
+
 [![tiktok: How to Collect Data from Fog Monitoring Station](https://img.youtube.com/vi/BPV76cE7MfQ/0.jpg)](https://www.youtube.com/watch?v=BPV76cE7MfQ)
 
