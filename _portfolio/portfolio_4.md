@@ -1,8 +1,9 @@
 ---
-title: "Fog Monitoring Project"
-excerpt: "Gif showing leaf wetness sensor data and corresponding images of fog at Cabrillo National Monument 
-<img src="{{ "/images/fog.gif" | relative_url }}" alt="GIF Image" width="750" height="750" class="centered-image">"
+title: "Fog Monitoring Project at Cabrillo National Monument"
+excerpt: "R plot shows the leaf wetness sensors measuring fog in mlV. Shows the corresponding camera footage of fog at Cabrillo.
+
+<img src= '/images/fog.gif' alt="GIF Image" class="centered-image">
+"
 collection: portfolio
 ---
-
   
