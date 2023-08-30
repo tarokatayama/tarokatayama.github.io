@@ -10,7 +10,7 @@ redirect_from:
 
 <img src="images/IMG_3257.jpeg" alt="Frying Pan River" width="750" height="700" class="centered-image">
 
-Hi there, I am a recent graduate from Duke University's Nicholas School of the Environment, where I studied Water Resources Management. I am incredibly interested and fascinated in water related issues, particularily those surrounding water rights, water scarcity, and how these issues are complicated further by climate change. At school, I developed an interest in data science, and enjoy the creative nature of programming. While I consider myself a beginner still, I am passionate and am willing to take the time to learn!
+Hi there, I am a recent graduate from Duke University's Nicholas School of the Environment, where I studied Water Resources Management. I am incredibly interested and fascinated in water related issues, particularily those surrounding water rights, water scarcity, and how these issues are complicated further by climate change. At school, I developed an interest in data science, and enjoy the creative nature of programming. I hope to continue my journey as a data science enthusiast, and am passionate to continue to learn more!
 
 ## Education	
 
