@@ -15,8 +15,8 @@ Hi there, I am a recent graduate from Duke University's Nicholas School of the E
 ## Education	
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="colby.png" alt="Image 1" width="20%">
-  <img src="duke.png" alt="Image 2" width="20%">
+  <img src="images/colby.png" alt="Image 1" width="45%">
+  <img src="images/duke.png" alt="Image 2" width="45%">
 </div>
 
 - M.E.M., Water Resources Management	| Duke University Nicholas School of the Environment (_May 2023_)	 			        		
