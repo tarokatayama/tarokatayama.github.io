@@ -12,3 +12,6 @@ main:
     
   - title: "Interests"
     url: /markdown/
+
+  - title: "Contact Info"
+    url: /contact/
