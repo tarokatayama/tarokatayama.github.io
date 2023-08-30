@@ -11,4 +11,4 @@ redirect_from:
 
 | Email | LinkedIn | Snapchat |
 | -------- | -------- | -------- |
-| tarokatayama1@gmail.com | linkedin.com/in/taro-katayama-704b94173 | Lol You Wish |
+| tarokatayama1@gmail.com | [linkedin](linkedin.com/in/taro-katayama-704b94173) | Lol You Wish |
