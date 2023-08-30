@@ -5,7 +5,7 @@ excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /contact/
-  - /contact.html
+  - /contact.md
 ---
 
 ### Email: tarokatayama1@gmail.com
