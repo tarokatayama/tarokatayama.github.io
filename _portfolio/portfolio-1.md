@@ -1,6 +1,6 @@
 ---
 title: "Water Scarcity Analysis for Electric Vehicle Battery Materials"
-excerpt: "A comprehensive geospatial analysis conducted in partnership with Rivian Automotive, evaluating water resource impacts of mining operations for battery minerals. The project included detailed water scarcity mapping and an interactive dashboard highlighting areas of concern. <br/><img src='/images/MP.png' alt='Water Scarcity Map' class='portfolio-image'>"
+excerpt: "A comprehensive geospatial analysis conducted in partnership with Rivian Automotive, evaluating water resource impacts of mining operations for battery minerals. The project included detailed water scarcity mapping and an interactive dashboard highlighting areas of concern. <br/><img src='/images/screenshot.png' alt='Water Scarcity Map' class='portfolio-image'>"
 collection: portfolio
 ---
 
