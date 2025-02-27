@@ -7,10 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="images/Water.jpeg" alt="Frying Pan River" width="750" height="700" class="centered-image">
 
 I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. Currently working as a Biologist at Cabrillo National Monument, I leverage my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.
 
+<img src="images/taro_field.jpeg" alt="Taro Field" class="centered-image">
 ## Career Focus
 
 I'm dedicated to applying data-driven solutions to water resource management challenges, with particular expertise in:
@@ -67,6 +67,8 @@ I'm dedicated to applying data-driven solutions to water resource management cha
   <img src="images/GISONLINE.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
   <img src="images/excel.png" alt="excel" style="max-width: 20%; height: auto;">
   <img src="images/arcpro.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
+  <img src="images/github.png" alt="github" style="max-width: 20%; height: auto;">
+  <img src="images/rmarkdwon.png" alt="RMarkdown" style="max-width: 20%; height: auto;">
 </div>
 
 Education
