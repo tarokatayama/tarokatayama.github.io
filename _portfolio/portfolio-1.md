@@ -1,9 +1,19 @@
 ---
-title: "Master's Project: Water Scarcity & Mine Locations"
-excerpt: "Analysis part of Master's Project with Rivian Automotive, looking at the water usage impact of mining for battery minerals. Analysis performed included an ArcGIS Pro water scarcity map, as well as an ArcGIS online dashboard, which shows mines with high water usage and underlying water scarcity issues. <br/><img src='/images/Screenshot.png'>"
-
+title: "Water Scarcity Analysis for Electric Vehicle Battery Materials"
+excerpt: "A comprehensive geospatial analysis conducted in partnership with Rivian Automotive, evaluating water resource impacts of mining operations for battery minerals. The project included detailed water scarcity mapping and an interactive dashboard highlighting areas of concern. <br/><img src='/images/MP.png' alt='Water Scarcity Map' class='portfolio-image'>"
 collection: portfolio
 ---
-[Master's Project: Assessing the Water Footprint of Electric Car Batteries: A Dive into the Water-Energy Nexus](https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/27165/Duke_MP_2023_Allen-Katayama-MacDonald-Thornton.pdf?sequence=1&isAllowed=y)
 
-[Dashboard showing Water Scarcity & Mine Location](https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758)
+## Project Overview
+
+This analysis was the cornerstone of my Master's Project at Duke University, focusing on the water-energy nexus within electric vehicle production. The project evaluated the water footprint of mineral extraction for EV batteries, identifying critical regions where mining operations intersect with water scarcity issues.
+
+### Key Components:
+- Development of comprehensive water scarcity maps using ArcGIS Pro
+- Creation of an interactive dashboard for visualizing high-risk mining operations
+- Analysis of water usage patterns across different mineral extraction processes
+- Recommendations for sustainable water management in battery supply chains
+
+[View the Complete Master's Project Report](https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/27165/Duke_MP_2023_Allen-Katayama-MacDonald-Thornton.pdf?sequence=1&isAllowed=y)
+
+[Explore the Interactive Water Scarcity & Mining Dashboard](https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758)
