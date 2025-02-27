@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "dark"
-title                    : "Taro Katayama's Homepage"
+title                    : "Taro Katayama | Water Resources Professional"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Taro Katayama"
+description              : &description "Environmental scientist specializing in water resource management, geospatial analysis, and scientific monitoring"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "https://tarokatayama.github.io/images/Taro.jpeg"
   name             : "Taro Katayama"
   pronouns         : # example: "she/her"  
-  bio              : "Water Resources Professional"
+  bio              : "Environmental Scientist | Water Resources Specialist | Data Analyst"
   location         : "San Diego, CA"
   employer         : "National Park Service"
   uri              : # URL
