@@ -63,8 +63,10 @@ I'm dedicated to applying data-driven solutions to water resource management cha
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
   <img src="images/R_logo.png" alt="R" style="max-width: 20%; height: auto;">
   <img src="images/shiny-logo.png" alt="R Shiny" style="max-width: 20%; height: auto;">
-  <img src="images/python.webp" alt="Python" style="max-width: 20%; height: auto;">
+  <img src="images/python.png" alt="Python" style="max-width: 20%; height: auto;">
   <img src="images/GISONLINE.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
+  <img src="images/excel.png" alt="excel" style="max-width: 20%; height: auto;">
+  <img src="images/arcpro.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
 </div>
 
 Education
