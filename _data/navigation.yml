@@ -7,7 +7,7 @@
 main:
      
   - title: "Portfolio"
-    url: tarokatayama.github.io/portfolio/
+    url: https://tarokatayama.github.io/portfolio/
         
   - title: "Talks"
     url: /talks/    
