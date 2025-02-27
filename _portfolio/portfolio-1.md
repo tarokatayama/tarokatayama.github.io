@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Master's Project: Water Scarcity & Mine Locations"
+excerpt: "Analysis part of Master's Project with Rivian Automotive, looking at the water usage impact of mining for battery minerals. Analysis performed included an ArcGIS Pro water scarcity map, as well as an ArcGIS online dashboard, which shows mines with high water usage and underlying water scarcity issues. <br/><img src='/images/MP.png'>"
+
 collection: portfolio
 ---
+[Master's Project: Assessing the Water Footprint of Electric Car Batteries: A Dive into the Water-Energy Nexus](https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/27165/Duke_MP_2023_Allen-Katayama-MacDonald-Thornton.pdf?sequence=1&isAllowed=y)
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+[Dashboard showing Water Scarcity & Mine Location](https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758)
