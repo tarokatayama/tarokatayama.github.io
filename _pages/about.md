@@ -11,6 +11,12 @@ Hi there, I am a recent graduate from Duke University's Nicholas School of the E
 
 Technical Skills
 ======
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/R_log.svg.png" alt="Image 1" width="45%">
+  <img src="images/shiny-logo.png" alt="Image 2" width="45%">
+</div>
+
 ArcGISPro, R, Python, R Shiny, Excel, ArcGIS Pro ModelBuilder, ARCGIS Online Dashboards, Survey123
 
 Education
