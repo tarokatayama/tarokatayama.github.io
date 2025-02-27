@@ -68,7 +68,7 @@ I'm dedicated to applying data-driven solutions to water resource management cha
   <img src="images/excel.png" alt="excel" style="max-width: 20%; height: auto;">
   <img src="images/arcpro.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
   <img src="images/github.png" alt="github" style="max-width: 20%; height: auto;">
-  <img src="images/rmarkdwon.png" alt="RMarkdown" style="max-width: 20%; height: auto;">
+  <img src="images/rmarkdown.png" alt="RMarkdown" style="max-width: 20%; height: auto;">
 </div>
 
 Education
