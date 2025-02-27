@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# Taro Katayama
+# About
 
 I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. Currently working as a Biologist at Cabrillo National Monument, I leverage my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.
 
@@ -21,12 +21,12 @@ Technical Skills
   <img src="images/GISONLINE.jpeg" alt="Image 4" style="max-width: 20%; height: auto;">
 </div>
 
-ArcGISPro, R, Python, R Shiny, Excel, ArcGIS Pro ModelBuilder, ARCGIS Online Dashboards, Survey123
+ArcGISPro, R, Python, R Shiny, Excel, ArcGIS Pro ModelBuilder, ARCGIS Online Dashboards, Survey123, github, markdown
 
 Education
 ======
-- **M.E.M., Water Resources Management**  
+- **Master of Environmental Management, Water Resources Management**  
   *Duke University, Nicholas School of the Environment* (_May 2023_)  
-- **B.A., Environmental Science**  
+- **Bachelor of Arts, Environmental Science**  
   *Colby College* (_May 2019_)  
 
