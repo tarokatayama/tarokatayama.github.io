@@ -7,14 +7,12 @@
 main:
   - title: "CV"
     url: https://tarokatayama.github.io/files/TARO_KATAYAMA_CV.pdf
-    
+
   - title: "Project Showcase"
     url: https://tarokatayama.github.io/portfolio/
         
   - title: "Talks"
     url: https://tarokatayama.github.io/talks/    
-
-
     
   - title: Skills Visualization
 
