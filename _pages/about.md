@@ -8,9 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. Currently working as a Biologist at Cabrillo National Monument, I leverage my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; margin-bottom: 30px;">
+  <div style="width: 48%;">
+    I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. Currently working as a Biologist at Cabrillo National Monument, I leverage my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.
+  </div>
+  <div style="width: 48%;">
+    <img src="images/taro_field.jpeg" alt="Taro Field" style="width: 100%; height: auto;">
+  </div>
+</div>
 
-<img src="images/taro_field.jpeg" alt="Taro Field" class="centered-image">
+<hr style="height: 2px; background-color: rgba(14, 161, 197, 0.3); margin: 30px 0;">
+
 ## Career Focus
 
 I'm dedicated to applying data-driven solutions to water resource management challenges, with particular expertise in:
@@ -18,6 +26,8 @@ I'm dedicated to applying data-driven solutions to water resource management cha
 - Monitoring program design and implementation
 - Geospatial analysis of water resources
 - Climate resilience and adaptation strategies
+
+<hr style="height: 2px; background-color: rgba(14, 161, 197, 0.3); margin: 30px 0;">
 
 ## Technical Skills
 
@@ -60,23 +70,42 @@ I'm dedicated to applying data-driven solutions to water resource management cha
   </div>
 </div>
 
-<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-  <img src="images/R_logo.png" alt="R" style="max-width: 20%; height: auto;">
-  <img src="images/shiny-logo.png" alt="R Shiny" style="max-width: 20%; height: auto;">
-  <img src="images/python.png" alt="Python" style="max-width: 20%; height: auto;">
-  <img src="images/GISONLINE.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
-  <img src="images/excel.png" alt="excel" style="max-width: 20%; height: auto;">
-  <img src="images/arcpro.jpeg" alt="GIS" style="max-width: 20%; height: auto;">
-  <img src="images/github.png" alt="github" style="max-width: 20%; height: auto;">
-  <img src="images/rmarkdown.png" alt="RMarkdown" style="max-width: 20%; height: auto;">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 20px;">
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/R_logo.png" alt="R" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/shiny-logo.png" alt="R Shiny" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/python.png" alt="Python" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/GISONLINE.jpeg" alt="GIS" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/excel.png" alt="excel" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/arcpro.jpeg" alt="GIS" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/github.png" alt="github" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="width: 22%; margin-bottom: 15px; text-align: center;">
+    <img src="images/rmarkdown.png" alt="RMarkdown" style="max-width: 100%; height: auto;">
+  </div>
 </div>
 
-Education
-======
+<hr style="height: 2px; background-color: rgba(14, 161, 197, 0.3); margin: 30px 0;">
+
+## Education
 - **Master of Environmental Management, Water Resources Management**  
   *Duke University, Nicholas School of the Environment* (_May 2023_)  
 - **Bachelor of Arts, Environmental Science**  
   *Colby College* (_May 2019_)  
+
+<hr style="height: 2px; background-color: rgba(14, 161, 197, 0.3); margin: 30px 0;">
 
 ## Featured Projects
 
