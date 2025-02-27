@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "_sass/theme/_dark.scss"
+site_theme               : "default"
 title                    : "Taro Katayama's Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
