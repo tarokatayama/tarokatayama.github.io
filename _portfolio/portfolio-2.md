@@ -1,6 +1,6 @@
 ---
 title: "Geospatial Analysis: Fast Food Density in Waterville, Maine"
-excerpt: "Using spatial analysis techniques to investigate the urban legend of Waterville as the 'Fast Food Capital of the United States.' This project demonstrates my skills in data collection, geospatial analysis, and compelling data visualization through ArcGIS StoryMaps. <br/><img src='/images/waterville.jpg' alt='Waterville Fast Food Map' class='portfolio-image'>"
+excerpt: "Using spatial analysis techniques to investigate the urban legend of Waterville as the 'Fast Food Capital of the United States.' This project demonstrates my skills in data collection, geospatial analysis, and compelling data visualization through ArcGIS StoryMaps. <br/><img src='/images/waterville.jpeg' alt='Waterville Fast Food Map' class='portfolio-image'>"
 collection: portfolio
 ---
 
