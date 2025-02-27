@@ -12,19 +12,19 @@ Hi there, I am a recent graduate from Duke University's Nicholas School of the E
 Technical Skills
 ======
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="images/R_logo.png" alt="Image 1" width="30%">
-  <img src="images/shiny-logo.png" alt="Image 2" width="30%">
-  <img src="images/python.webp" alt="Image 3" width="30%">
-  <img src="images/GISONLINE.jpeg" alt="Image 4" width="30%">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <img src="images/R_logo.png" alt="Image 1" style="max-width: 20%; height: auto;">
+  <img src="images/shiny-logo.png" alt="Image 2" style="max-width: 20%; height: auto;">
+  <img src="images/python.webp" alt="Image 3" style="max-width: 20%; height: auto;">
+  <img src="images/GISONLINE.jpeg" alt="Image 4" style="max-width: 20%; height: auto;">
 </div>
 
 ArcGISPro, R, Python, R Shiny, Excel, ArcGIS Pro ModelBuilder, ARCGIS Online Dashboards, Survey123
 
 Education
 ======
-- M.E.M., Water Resources Management
-  Duke University Nicholas School of the Environment (_May 2023_)	 			        		
-- B.A., Environmental Science
-  Colby College (_May 2019_)
+- **M.E.M., Water Resources Management**  
+  *Duke University, Nicholas School of the Environment* (_May 2023_)  
+- **B.A., Environmental Science**  
+  *Colby College* (_May 2019_)  
 
