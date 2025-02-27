@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "dark"
-title                    : "Your Name / Site Title"
+title                    : "Taro Katayama's Homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Taro Katayama"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "San Diego, CA"
+  employer         : "National Park Service"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "Tarokatayama1@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
