@@ -5,16 +5,13 @@
 # prevent it from being included in the site.
 
 main:
-
-  - title: "Teaching"
-    url: /teaching/    
-    
+     
   - title: "Portfolio"
-    url: /portfolio/
+    url: tarokatayama.github.io/portfolio/
         
   - title: "Talks"
     url: /talks/    
 
   - title: "CV"
-    url: /cv/
+    url: /files/TARO_KATAYAMA_CV.pdf
     
