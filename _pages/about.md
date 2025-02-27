@@ -13,7 +13,7 @@ Technical Skills
 ======
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="images/R_log.svg.png" alt="Image 1" width="45%">
+  <img src="images/R_logo.png" alt="Image 1" width="45%">
   <img src="images/shiny-logo.png" alt="Image 2" width="45%">
 </div>
 
