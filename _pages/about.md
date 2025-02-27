@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi there, I am a recent graduate from Duke University's Nicholas School of the Environment, where I studied Water Resources Management. I am incredibly interested and fascinated in water related issues, particularily those surrounding water rights, water scarcity, and how these issues are complicated further by climate change. At school, I developed an interest in data science, and enjoy the creative nature of programming. I hope to continue my journey
+# Taro Katayama
+
+I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. Currently working as a Biologist at Cabrillo National Monument, I leverage my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.
 
 Technical Skills
 ======
