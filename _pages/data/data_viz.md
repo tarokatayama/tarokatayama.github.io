@@ -5,27 +5,6 @@ permalink: /data/data_viz/
 author_profile: true
 ---
 
-## Technical Skills
-
-<div class="skills-container">
-  <div class="skill-bar">
-    <span class="skill-name">ArcGIS Pro</span>
-    <div class="skill-level" style="width: 95%;">95%</div>
-  </div>
-  <div class="skill-bar">
-    <span class="skill-name">R Statistical Software</span>
-    <div class="skill-level" style="width: 75%;">75%</div>
-  </div>
-  <div class="skill-bar">
-    <span class="skill-name">Python</span>
-    <div class="skill-level" style="width: 75%;">75%</div>
-  </div>
-  <div class="skill-bar">
-    <span class="skill-name">Data Visualization</span>
-    <div class="skill-level" style="width: 80%;">80%</div>
-  </div>
-</div>
-
 ## Portfolio Gallery
 
 <div class="portfolio-grid">
@@ -68,39 +47,13 @@ author_profile: true
       </div>
     </a>
     <h3>Temporal Data Visualization</h3>
-    <p>Animated visualization of fog occurence at Cabrillo National Monument.</p>
+    <p>Animated visualization of fog occurence at Cabrillo National Monument with real time camera footage overlayed.</p>
   </div>
   
   <!-- Add more portfolio items following the same structure -->
 </div>
 
 <style>
-/* Skill bars styling */
-.skills-container {
-  width: 100%;
-  margin: 20px 0 40px;
-}
-.skill-bar {
-  margin-bottom: 15px;
-  position: relative;
-  background: #f1f1f1;
-  border-radius: 4px;
-  padding: 5px 0;
-}
-.skill-name {
-  position: absolute;
-  left: 10px;
-  z-index: 1;
-  font-weight: bold;
-}
-.skill-level {
-  background: #4285f4;
-  color: white;
-  padding: 5px 0;
-  text-align: right;
-  padding-right: 10px;
-  border-radius: 4px;
-}
 
 /* Portfolio grid styling */
 .portfolio-grid {
