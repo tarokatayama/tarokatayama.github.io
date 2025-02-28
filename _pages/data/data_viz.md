@@ -31,31 +31,46 @@ author_profile: true
 ### Geospatial Analysis Projects
 
 <div class="portfolio-grid">
-  <!-- Portfolio Item 1 - Replace with your own files -->
+  <!-- Portfolio Item 1 - PDF with clickable preview -->
   <div class="portfolio-item">
-    <div class="portfolio-preview">
-      <iframe src="/files/81943Map1.pdf" class="pdf-preview"></iframe>
-    </div>
+    <a href="/files/81943Map1.pdf" target="_blank" class="portfolio-link">
+      <div class="portfolio-preview">
+        <iframe src="/files/81943Map1.pdf" class="pdf-preview"></iframe>
+        <div class="overlay">
+          <span class="view-full">View Full PDF</span>
+        </div>
+      </div>
+    </a>
     <h3>Advanced Spatial Analysis</h3>
-    <p>Comprehensive overlay analysis examining environmental factors in urban development.</p>
+    <p>Water rights transfer maps at John Day Fossil Beds National Monument</p>
   </div>
   
-  <!-- Portfolio Item 2 - Template for easy addition -->
+  <!-- Portfolio Item 2 - PDF with clickable preview -->
   <div class="portfolio-item">
-    <div class="portfolio-preview">
-      <iframe src="/files/example-map.pdf" class="pdf-preview"></iframe>
-    </div>
+    <a href="/files/example-map.pdf" target="_blank" class="portfolio-link">
+      <div class="portfolio-preview">
+        <iframe src="/files/example-map.pdf" class="pdf-preview"></iframe>
+        <div class="overlay">
+          <span class="view-full">View Full PDF</span>
+        </div>
+      </div>
+    </a>
     <h3>Land Use Classification</h3>
     <p>Temporal analysis of land use changes across a 10-year period.</p>
   </div>
   
-  <!-- Portfolio Item 3 - Template for GIF -->
+  <!-- Portfolio Item 3 - GIF with clickable preview -->
   <div class="portfolio-item">
-    <div class="portfolio-preview">
-      <img src="/files/example-animation.gif" class="gif-preview" alt="Temporal data visualization">
-    </div>
+    <a href="/images/fog.gif" target="_blank" class="portfolio-link">
+      <div class="portfolio-preview">
+        <img src="/files/example-animation.gif" class="gif-preview" alt="Temporal data visualization">
+        <div class="overlay">
+          <span class="view-full">View Full GIF</span>
+        </div>
+      </div>
+    </a>
     <h3>Temporal Data Visualization</h3>
-    <p>Animated visualization of seasonal precipitation patterns.</p>
+    <p>Animated visualization of fog occurence at Cabrillo National Monument.</p>
   </div>
   
   <!-- Add more portfolio items following the same structure -->
@@ -112,11 +127,41 @@ author_profile: true
   position: relative;
   background: #f5f5f5;
 }
+.portfolio-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 .pdf-preview, .gif-preview {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border: none;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.portfolio-preview:hover .overlay {
+  opacity: 1;
+}
+.view-full {
+  background: #4285f4;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 .portfolio-item h3 {
   padding: 15px 15px 5px;
