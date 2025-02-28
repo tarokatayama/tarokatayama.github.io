@@ -28,8 +28,6 @@ author_profile: true
 
 ## Portfolio Gallery
 
-### Geospatial Analysis Projects
-
 <div class="portfolio-grid">
   <!-- Portfolio Item 1 - PDF with clickable preview -->
   <div class="portfolio-item">
@@ -63,7 +61,7 @@ author_profile: true
   <div class="portfolio-item">
     <a href="/images/fog.gif" target="_blank" class="portfolio-link">
       <div class="portfolio-preview">
-        <img src="/files/example-animation.gif" class="gif-preview" alt="Temporal data visualization">
+        <img src="/images/fog.gif" class="gif-preview" alt="Temporal data visualization">
         <div class="overlay">
           <span class="view-full">View Full GIF</span>
         </div>
