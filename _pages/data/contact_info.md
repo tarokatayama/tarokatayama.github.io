@@ -18,7 +18,7 @@ I'm always open to new opportunities, collaborations, and conversations about ge
   </div>
   <div class="contact-item">
     <i class="fas fa-phone"></i>
-    <span>:(516)-317-4303</span>
+    <span><a href="tel:+15163174303">(516)-317-4303</a></span>
   </div>
   <div class="contact-item">
     <i class="fab fa-linkedin"></i>
