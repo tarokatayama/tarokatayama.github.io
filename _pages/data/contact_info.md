@@ -18,11 +18,11 @@ I'm always open to new opportunities, collaborations, and conversations about ge
   </div>
   <div class="contact-item">
     <i class="fas fa-phone"></i>
-    <span>(516)-317-4303</span>
+    <span>:(516)-317-4303</span>
   </div>
   <div class="contact-item">
     <i class="fab fa-linkedin"></i>
-    <span><a href="https://linkedin.com/in/taro-katayama-704b94173" target="_blank">LinkedIn Profile</a></span>
+    <span><a href="https://linkedin.com/in/taro-katayama" target="_blank">LinkedIn Profile</a></span>
   </div>
 </div>
 
