@@ -15,6 +15,7 @@ main:
     url: https://tarokatayama.github.io/talks/    
     
   - title: Skills Visualization
+    urll: https://tarokatayama.github.io/files
 
   - title: "Contact Info"
-    url: /pages/cv.md
+    url: /contact_info
