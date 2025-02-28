@@ -18,4 +18,4 @@ main:
     urll: https://tarokatayama.github.io/data_viz
 
   - title: "Contact Info"
-    url: contact_info
+    url: /contact_info
