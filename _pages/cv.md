@@ -2,9 +2,8 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+collection: "Contact Info"
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 ### Email: Tarokatayama1@gmail.com
