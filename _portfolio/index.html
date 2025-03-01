@@ -12,6 +12,7 @@
     background-color: #121212;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
 
   .container {
@@ -26,6 +27,8 @@
 
   h2 {
     border-bottom: 2px solid #4285f4;
+    padding-bottom: 10px;
+    margin-top: 40px;
   }
 
   .portfolio-item {
@@ -134,6 +137,10 @@
     background: #242424;
     padding: 15px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
   }
   
   .nav-links {
@@ -171,6 +178,44 @@
     height: 600px;
     border: none;
   }
+  
+  /* Page section navigation styling */
+  .page-nav {
+    background: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  }
+  
+  .page-nav-button {
+    background: linear-gradient(135deg, #4285f4, #34a853);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .page-nav-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 10px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #5295ff, #3cb062);
+  }
+  
+  .page-nav-button:active {
+    transform: translateY(-1px);
+  }
 
   </style>
 </head>
@@ -189,10 +234,20 @@
   <div class="container">
     <h1>GIS & Environmental Science Portfolio</h1>
     
-    <h2>Featured Projects</h2>
+    <!-- Page section navigation buttons -->
+    <div class="page-nav">
+      <button class="page-nav-button" onclick="document.getElementById('featured-projects').scrollIntoView({behavior: 'smooth'})">Featured Projects</button>
+      <button class="page-nav-button" onclick="document.getElementById('water-scarcity').scrollIntoView({behavior: 'smooth'})">Water Scarcity</button>
+      <button class="page-nav-button" onclick="document.getElementById('fog-monitoring').scrollIntoView({behavior: 'smooth'})">Fog Monitoring</button>
+      <button class="page-nav-button" onclick="document.getElementById('fast-food').scrollIntoView({behavior: 'smooth'})">Fast Food Analysis</button>
+      <button class="page-nav-button" onclick="document.getElementById('technical-maps').scrollIntoView({behavior: 'smooth'})">Technical Maps</button>
+      <button class="page-nav-button" onclick="document.getElementById('writing-samples').scrollIntoView({behavior: 'smooth'})">Writing Samples</button>
+    </div>
+    
+    <h2 id="featured-projects">Featured Projects</h2>
     
     <!-- Water Scarcity Analysis Project -->
-    <div class="portfolio-item">
+    <div id="water-scarcity" class="portfolio-item">
       <div class="portfolio-content">
         <h3>Water Scarcity Analysis for EV Battery Materials</h3>
         <p>A comprehensive geospatial analysis conducted in partnership with Rivian Automotive, evaluating water resource impacts of mining operations for battery minerals.</p>
@@ -221,7 +276,7 @@
     </div>
     
     <!-- Fog Monitoring Project - Moved to second position -->
-    <div class="portfolio-item">
+    <div id="fog-monitoring" class="portfolio-item">
       <div class="portfolio-content">
         <h3>Fog Monitoring System</h3>
         <p>Innovative monitoring system to measure fog that coastal plant species need to thrive at Cabrillo National Monument.</p>
@@ -250,7 +305,7 @@
     </div>
     
     <!-- Waterville Fast Food Analysis - Replaced image with StoryMap embed -->
-    <div class="portfolio-item">
+    <div id="fast-food" class="portfolio-item">
       <div class="portfolio-content">
         <h3>Fast Food Density in Waterville, Maine</h3>
         <p>Using spatial analysis techniques to investigate the urban legend of Waterville as the 'Fast Food Capital of the United States.'</p>
@@ -277,7 +332,7 @@
       </div>
     </div>
     
-    <h2>Technical Maps & Visualizations</h2>
+    <h2 id="technical-maps">Technical Maps & Visualizations</h2>
     
     <!-- Water Rights Transfer Map - Made bigger and centered -->
     <div class="portfolio-item">
@@ -289,7 +344,7 @@
       </div>
     </div>
     
-    <h2>Writing Samples</h2>
+    <h2 id="writing-samples">Writing Samples</h2>
     
     <!-- Added Writing Sample Section -->
     <div class="portfolio-item">
@@ -298,7 +353,7 @@
         <p>Sample of technical writing skills and professional communication in environmental science context.</p>
         
         <!-- Fixed path to memo4.pdf -->
-        <iframe src="/files/HydrologyMemo.pdf" class="pdf-embed"></iframe>
+        <iframe src="/files/memo4.pdf" class="pdf-embed"></iframe>
         
         <!-- Fallback if iframe doesn't work -->
         <div class="portfolio-links">
