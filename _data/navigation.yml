@@ -13,9 +13,6 @@ main:
         
   - title: "Talks"
     url: https://tarokatayama.github.io/talks/    
-    
-  - title: "Skills Visualization"
-    url: /data/data_viz/
 
   - title: "Contact Info"
     url: /data/contact_info/
