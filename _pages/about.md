@@ -105,12 +105,3 @@ I'm dedicated to applying data-driven solutions to water resource management cha
 - **Bachelor of Arts, Environmental Science**  
   *Colby College* (_May 2019_)  
 
-<hr style="height: 2px; background-color: rgba(14, 161, 197, 0.3); margin: 30px 0;">
-
-## Featured Projects
-
-- **Analyzing the Water Footprint of Electric Car Batteries** - Partnered with RIVIAN Automotive to analyze water footprints of minerals in EV batteries, creating water scarcity maps and interactive dashboards.
-
-- **Fog Monitoring Program at Cabrillo National Monument** - Designed and implemented a novel fog monitoring system using weather stations, cameras, and leaf wetness sensors to study microclimate effects on vegetation in drought-prone areas.
-
-- **Rocky Intertidal Monitoring Program** - Led comprehensive monitoring and data analysis of intertidal ecosystems as part of a multi-agency monitoring initiative (MARINe).
