@@ -44,6 +44,7 @@
   .portfolio-description {
     background: #242424;
     border-top: 1px solid #333;
+    padding: 20px;
   }
 
   .btn-link {
@@ -55,6 +56,8 @@
     font-size: 14px;
     font-weight: bold;
     transition: all 0.2s ease;
+    display: inline-block;
+    margin: 5px;
   }
 
   .btn-link:hover {
@@ -62,26 +65,116 @@
     transform: translateY(-2px);
   }
 
-  .skill-bar {
-    background: #242424;
-  }
-
-  .skill-level {
-    background: #4285f4;
-  }
-
   .portfolio-preview {
     background: #1E1E1E;
+    position: relative;
   }
 
   .overlay {
     background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .portfolio-preview:hover .overlay {
+    opacity: 1;
+  }
+
+  .view-full {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .img-preview {
+    width: 100%;
+    display: block;
+  }
+  
+  .portfolio-content {
+    padding: 20px;
+  }
+  
+  .portfolio-links {
+    margin-top: 15px;
+  }
+  
+  .portfolio-details {
+    padding: 20px;
+  }
+  
+  .dashboard-embed {
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
+  
+  .pdf-embed {
+    width: 90%;
+    height: 500px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .nav-container {
+    background: #242424;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #4285f4;
+  }
+  
+  .article-preview {
+    padding: 20px;
+    background: #2a2a2a;
+    border-radius: 8px;
+    margin-top: 20px;
   }
 
   </style>
 </head>
 
 <body>
+  <!-- Navigation Header -->
+  <div class="nav-container">
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/publications/">Publications</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </div>
+
   <div class="container">
     <h1>GIS & Environmental Science Portfolio</h1>
     
@@ -90,81 +183,87 @@
     <!-- Water Scarcity Analysis Project -->
     <div class="portfolio-item">
       <div class="portfolio-content">
+        <h3>Water Scarcity Analysis for EV Battery Materials</h3>
+        <p>A comprehensive geospatial analysis conducted in partnership with Rivian Automotive, evaluating water resource impacts of mining operations for battery minerals.</p>
+        
         <div class="portfolio-preview">
-          <img src='/images/Screenshot.png' alt='Water Scarcity Map' class="img-preview">
-          <div class="overlay">
-            <span class="view-full">View Project</span>
-          </div>
+          <iframe src="https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758" class="dashboard-embed" title="Water Scarcity Dashboard"></iframe>
         </div>
-        <div class="portfolio-details">
-          <h3>Water Scarcity Analysis for EV Battery Materials</h3>
-          <p>A comprehensive geospatial analysis conducted in partnership with Rivian Automotive, evaluating water resource impacts of mining operations for battery minerals.</p>
+        
+        <div class="portfolio-description">
+          <p>This analysis was the cornerstone of my Master's Project at Duke University, focusing on the water-energy nexus within electric vehicle production. The project evaluated the water footprint of mineral extraction for EV batteries, identifying critical regions where mining operations intersect with water scarcity issues.</p>
+          
+          <h4>Key Components:</h4>
+          <ul>
+            <li>Development of comprehensive water scarcity maps using ArcGIS Pro</li>
+            <li>Creation of an interactive dashboard for visualizing high-risk mining operations</li>
+            <li>Analysis of water usage patterns across different mineral extraction processes</li>
+            <li>Recommendations for sustainable water management in battery supply chains</li>
+          </ul>
+          
           <div class="portfolio-links">
             <a href="https://dukespace.lib.duke.edu/dspace/bitstream/handle/10161/27165/Duke_MP_2023_Allen-Katayama-MacDonald-Thornton.pdf?sequence=1&isAllowed=y" target="_blank" class="btn-link">View Full Report</a>
-            <a href="https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758" target="_blank" class="btn-link">Interactive Dashboard</a>
+            <a href="https://dukeuniv.maps.arcgis.com/apps/dashboards/47a5c479b8854bda9d2bb817986ae758" target="_blank" class="btn-link">Open Interactive Dashboard</a>
           </div>
         </div>
-      </div>
-      <div class="portfolio-description">
-        <h3>Project Overview</h3>
-        <p>This analysis was the cornerstone of my Master's Project at Duke University, focusing on the water-energy nexus within electric vehicle production. The project evaluated the water footprint of mineral extraction for EV batteries, identifying critical regions where mining operations intersect with water scarcity issues.</p>
-        
-        <h4>Key Components:</h4>
-        <ul>
-          <li>Development of comprehensive water scarcity maps using ArcGIS Pro</li>
-          <li>Creation of an interactive dashboard for visualizing high-risk mining operations</li>
-          <li>Analysis of water usage patterns across different mineral extraction processes</li>
-          <li>Recommendations for sustainable water management in battery supply chains</li>
-        </ul>
       </div>
     </div>
     
-    <!-- Waterville Fast Food Analysis -->
+    <!-- Fog Monitoring Project - Moved to second position -->
     <div class="portfolio-item">
       <div class="portfolio-content">
-        <div class="portfolio-preview">
-          <img src='/images/waterville.jpeg' alt='Waterville Fast Food Map' class="img-preview">
-          <div class="overlay">
-            <span class="view-full">View Project</span>
-          </div>
-        </div>
-        <div class="portfolio-details">
-          <h3>Fast Food Density in Waterville, Maine</h3>
-          <p>Using spatial analysis techniques to investigate the urban legend of Waterville as the 'Fast Food Capital of the United States.'</p>
-          <div class="portfolio-links">
-            <a href="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931" target="_blank" class="btn-link">View StoryMap</a>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio-description">
-        <h3>Project Background</h3>
-        <p>This investigation began as a curiosity-driven project to verify a local urban legend in Waterville, Maine. Using geospatial analysis tools, I examined the density of fast food establishments relative to population size to determine if the town truly deserved its unofficial title as the "Fast Food Capital of the United States."</p>
+        <h3>Fog Monitoring System</h3>
+        <p>Innovative monitoring system to measure fog that coastal plant species need to thrive at Cabrillo National Monument.</p>
         
-        <h4>Technical Approach:</h4>
-        <ul>
-          <li>Data collection and cleaning using Python in Jupyter Notebooks</li>
-          <li>Spatial analysis of restaurant density patterns</li>
-          <li>Population-based statistical comparisons with national averages</li>
-          <li>Creation of an engaging, interactive narrative using ArcGIS StoryMaps</li>
-        </ul>
-      </div>
-    </div>
-    
-    <!-- Fog Monitoring Project -->
-    <div class="portfolio-item">
-      <div class="portfolio-content">
         <div class="portfolio-preview">
           <img src="/images/fog.gif" class="img-preview" alt="Fog occurrence visualization">
           <div class="overlay">
             <span class="view-full">View Full GIF</span>
           </div>
         </div>
-        <div class="portfolio-details">
-          <h3>Fog Monitoring System</h3>
-          <p>Innovative monitoring system to measure fog that coastal plant species need to thrive at Cabrillo National Monument.</p>
+        
+        <div class="portfolio-description">
+          <p>This project developed an innovative fog monitoring system to track and measure fog patterns that are critical for the survival of coastal plant species at Cabrillo National Monument. The data gathered helps park managers understand climate patterns and make informed conservation decisions.</p>
+          
+          <div class="article-preview">
+            <h4>Article Preview: Innovative System Measures Fog That Beloved Plants Need to Thrive</h4>
+            <p>Marine fog provides essential moisture to many unique coastal plants through fog drip, especially during the dry season. At Cabrillo National Monument, fog is a critical lifeline for fragile coastal sage scrub habitat. This article discusses our innovative monitoring system that quantifies this important ecological phenomenon.</p>
+            <a href="https://www.nps.gov/articles/000/psv39n1_innovative-system-measures-fog-that-beloved-plants-need-to-thrive.htm" target="_blank" class="btn-link">Read Full NPS Article</a>
+          </div>
+          
           <div class="portfolio-links">
             <a href="/file/CABR_FogMon_Annual.pdf" target="_blank" class="btn-link">View Annual Report</a>
-            <a href="https://www.nps.gov/articles/000/psv39n1_innovative-system-measures-fog-that-beloved-plants-need-to-thrive.htm" target="_blank" class="btn-link">Read NPS Article</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Waterville Fast Food Analysis -->
+    <div class="portfolio-item">
+      <div class="portfolio-content">
+        <h3>Fast Food Density in Waterville, Maine</h3>
+        <p>Using spatial analysis techniques to investigate the urban legend of Waterville as the 'Fast Food Capital of the United States.'</p>
+        
+        <div class="portfolio-preview">
+          <img src='/images/waterville.jpeg' alt='Waterville Fast Food Map' class="img-preview">
+          <div class="overlay">
+            <span class="view-full">View Project</span>
+          </div>
+        </div>
+        
+        <div class="portfolio-description">
+          <p>This investigation began as a curiosity-driven project to verify a local urban legend in Waterville, Maine. Using geospatial analysis tools, I examined the density of fast food establishments relative to population size to determine if the town truly deserved its unofficial title as the "Fast Food Capital of the United States."</p>
+          
+          <h4>Technical Approach:</h4>
+          <ul>
+            <li>Data collection and cleaning using Python in Jupyter Notebooks</li>
+            <li>Spatial analysis of restaurant density patterns</li>
+            <li>Population-based statistical comparisons with national averages</li>
+            <li>Creation of an engaging, interactive narrative using ArcGIS StoryMaps</li>
+          </ul>
+          
+          <div class="portfolio-links">
+            <a href="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931" target="_blank" class="btn-link">View StoryMap</a>
           </div>
         </div>
       </div>
@@ -172,70 +271,34 @@
     
     <h2>Technical Maps & Visualizations</h2>
     
-    <!-- Technical maps section -->
+    <!-- Water Rights Transfer Map - Made bigger and centered -->
     <div class="portfolio-item">
       <div class="portfolio-content">
-        <div class="portfolio-preview">
-          <iframe src="/files/81943Map1.pdf" class="img-preview"></iframe>
-          <div class="overlay">
-            <span class="view-full">View Full PDF</span>
-          </div>
-        </div>
-        <div class="portfolio-details">
-          <h3>Water Rights Transfer Analysis</h3>
-          <p>Water rights transfer maps at John Day Fossil Beds National Monument showcasing advanced spatial analysis techniques.</p>
-        </div>
+        <h3>Water Rights Transfer Analysis</h3>
+        <p>Water rights transfer maps at John Day Fossil Beds National Monument showcasing advanced spatial analysis techniques.</p>
+        
+        <iframe src="/files/81943Map1.pdf" class="pdf-embed"></iframe>
       </div>
     </div>
     
     <div class="portfolio-item">
       <div class="portfolio-content">
-        <div class="portfolio-preview">
-          <iframe src="/files/example-map.pdf" class="img-preview"></iframe>
-          <div class="overlay">
-            <span class="view-full">View Full PDF</span>
-          </div>
-        </div>
-        <div class="portfolio-details">
-          <h3>Land Use Classification</h3>
-          <p>Temporal analysis of land use changes across a 10-year period using remote sensing and GIS classification techniques.</p>
-        </div>
+        <h3>Land Use Classification</h3>
+        <p>Temporal analysis of land use changes across a 10-year period using remote sensing and GIS classification techniques.</p>
+        
+        <iframe src="/files/example-map.pdf" class="pdf-embed"></iframe>
       </div>
     </div>
     
+    <h2>Writing Samples</h2>
+    
+    <!-- Added Writing Sample Section -->
     <div class="portfolio-item">
       <div class="portfolio-content">
-        <div class="portfolio-preview">
-          <iframe src="/file/CABR_FogMon_Annual.pdf" class="img-preview"></iframe>
-          <div class="overlay">
-            <span class="view-full">View Full PDF</span>
-          </div>
-        </div>
-        <div class="portfolio-details">
-          <h3>Fog Monitoring Annual Report</h3>
-          <p>Detailed annual analysis of fog patterns and their impact on native plant communities at Cabrillo National Monument.</p>
-        </div>
-      </div>
-    </div>
-    
-    <h2>Technical Skills</h2>
-    
-    <div class="skills-container">
-      <div class="skill-bar">
-        <span class="skill-name">ArcGIS Pro</span>
-        <div class="skill-level" style="width: 95%;">95%</div>
-      </div>
-      <div class="skill-bar">
-        <span class="skill-name">R Statistical Software</span>
-        <div class="skill-level" style="width: 75%;">75%</div>
-      </div>
-      <div class="skill-bar">
-        <span class="skill-name">Python</span>
-        <div class="skill-level" style="width: 75%;">75%</div>
-      </div>
-      <div class="skill-bar">
-        <span class="skill-name">Data Visualization</span>
-        <div class="skill-level" style="width: 80%;">80%</div>
+        <h3>Professional Memorandum</h3>
+        <p>Sample of technical writing skills and professional communication in environmental science context.</p>
+        
+        <iframe src="/files/memo4.pdf" class="pdf-embed"></iframe>
       </div>
     </div>
   </div>
