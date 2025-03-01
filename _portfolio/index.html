@@ -112,6 +112,12 @@
   
   .dashboard-embed {
     width: 100%;
+    height: 700px;
+    border: none;
+  }
+  
+  .storymap-embed {
+    width: 100%;
     height: 600px;
     border: none;
   }
@@ -159,6 +165,12 @@
     border-radius: 8px;
     margin-top: 20px;
   }
+  
+  .article-embed {
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
 
   </style>
 </head>
@@ -169,9 +181,8 @@
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
       <li><a href="/projects/">Projects</a></li>
-      <li><a href="/publications/">Publications</a></li>
-      <li><a href="/about/">About</a></li>
-      <li><a href="/contact/">Contact</a></li>
+      <li><a href="/talks/">Talks</a></li>
+      <li><a href="/contact_info/">Contact Info</a></li>
     </ul>
   </div>
 
@@ -226,29 +237,26 @@
           <p>This project developed an innovative fog monitoring system to track and measure fog patterns that are critical for the survival of coastal plant species at Cabrillo National Monument. The data gathered helps park managers understand climate patterns and make informed conservation decisions.</p>
           
           <div class="article-preview">
-            <h4>Article Preview: Innovative System Measures Fog That Beloved Plants Need to Thrive</h4>
-            <p>Marine fog provides essential moisture to many unique coastal plants through fog drip, especially during the dry season. At Cabrillo National Monument, fog is a critical lifeline for fragile coastal sage scrub habitat. This article discusses our innovative monitoring system that quantifies this important ecological phenomenon.</p>
-            <a href="https://www.nps.gov/articles/000/psv39n1_innovative-system-measures-fog-that-beloved-plants-need-to-thrive.htm" target="_blank" class="btn-link">Read Full NPS Article</a>
+            <h4>NPS Article: Innovative System Measures Fog That Beloved Plants Need to Thrive</h4>
+            <iframe src="https://www.nps.gov/articles/000/psv39n1_innovative-system-measures-fog-that-beloved-plants-need-to-thrive.htm" class="article-embed" title="NPS Fog Monitoring Article"></iframe>
           </div>
           
           <div class="portfolio-links">
             <a href="/file/CABR_FogMon_Annual.pdf" target="_blank" class="btn-link">View Annual Report</a>
+            <a href="https://www.nps.gov/articles/000/psv39n1_innovative-system-measures-fog-that-beloved-plants-need-to-thrive.htm" target="_blank" class="btn-link">Open Article in New Tab</a>
           </div>
         </div>
       </div>
     </div>
     
-    <!-- Waterville Fast Food Analysis -->
+    <!-- Waterville Fast Food Analysis - Replaced image with StoryMap embed -->
     <div class="portfolio-item">
       <div class="portfolio-content">
         <h3>Fast Food Density in Waterville, Maine</h3>
         <p>Using spatial analysis techniques to investigate the urban legend of Waterville as the 'Fast Food Capital of the United States.'</p>
         
         <div class="portfolio-preview">
-          <img src='/images/waterville.jpeg' alt='Waterville Fast Food Map' class="img-preview">
-          <div class="overlay">
-            <span class="view-full">View Project</span>
-          </div>
+          <iframe src="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931" class="storymap-embed" title="Fast Food Density StoryMap"></iframe>
         </div>
         
         <div class="portfolio-description">
@@ -263,7 +271,7 @@
           </ul>
           
           <div class="portfolio-links">
-            <a href="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931" target="_blank" class="btn-link">View StoryMap</a>
+            <a href="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931" target="_blank" class="btn-link">View StoryMap in New Tab</a>
           </div>
         </div>
       </div>
@@ -281,15 +289,6 @@
       </div>
     </div>
     
-    <div class="portfolio-item">
-      <div class="portfolio-content">
-        <h3>Land Use Classification</h3>
-        <p>Temporal analysis of land use changes across a 10-year period using remote sensing and GIS classification techniques.</p>
-        
-        <iframe src="/files/example-map.pdf" class="pdf-embed"></iframe>
-      </div>
-    </div>
-    
     <h2>Writing Samples</h2>
     
     <!-- Added Writing Sample Section -->
@@ -298,7 +297,13 @@
         <h3>Professional Memorandum</h3>
         <p>Sample of technical writing skills and professional communication in environmental science context.</p>
         
+        <!-- Fixed path to memo4.pdf -->
         <iframe src="/files/memo4.pdf" class="pdf-embed"></iframe>
+        
+        <!-- Fallback if iframe doesn't work -->
+        <div class="portfolio-links">
+          <a href="/files/memo4.pdf" target="_blank" class="btn-link">Open Memo PDF</a>
+        </div>
       </div>
     </div>
   </div>
