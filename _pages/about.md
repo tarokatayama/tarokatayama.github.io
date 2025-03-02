@@ -35,16 +35,16 @@ I'm dedicated to applying data-driven solutions to water resource management cha
   <div style="width: 45%; background-color: rgba(14, 161, 197, 0.1); padding: 15px; border-radius: 5px; margin-bottom: 15px;">
     <h3 style="margin-top: 0;">Data Analysis</h3>
     <ul>
-      <li>R Programming (Advanced)</li>
-      <li>Python (Intermediate)</li>
-      <li>Microsoft Excel (Advanced)</li>
+      <li>R Programming</li>
+      <li>Python</li>
+      <li>Microsoft Excel</li>
       <li>R Shiny Dashboard Development</li>
     </ul>
   </div>
   <div style="width: 45%; background-color: rgba(14, 161, 197, 0.1); padding: 15px; border-radius: 5px; margin-bottom: 15px;">
     <h3 style="margin-top: 0;">Geospatial Analysis</h3>
     <ul>
-      <li>ArcGIS Pro (Advanced)</li>
+      <li>ArcGIS Pro</li>
       <li>ArcGIS Online Dashboards</li>
       <li>ModelBuilder</li>
       <li>Survey123</li>
