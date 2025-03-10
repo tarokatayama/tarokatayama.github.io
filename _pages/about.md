@@ -10,10 +10,10 @@ redirect_from:
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; margin-bottom: 30px;">
   <div style="width: 48%;">
-    I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. I most recently worked as a Biologist at Cabrillo National Monument, where I leveraged my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.
+    <p style="margin: 0;">I'm an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. I most recently worked as a Biologist at Cabrillo National Monument, where I leveraged my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates. With a Master's in Environmental Management from Duke University and a background in wetland restoration and conservation, I'm passionate about addressing water resource challenges through innovative, data-driven approaches.</p>
   </div>
-  <div style="width: 48%;">
-    <img src="images/taro_field.jpeg" alt="Taro Field" style="width: 100%; height: auto;">
+  <div style="width: 48%; display: flex; align-items: flex-start;">
+    <img src="images/taro_field.jpeg" alt="Taro Field" style="width: 100%; object-fit: cover; max-height: 230px;">
   </div>
 </div>
 
