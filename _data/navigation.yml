@@ -15,4 +15,6 @@ main:
     url: https://tarokatayama.github.io/talks/    
 
   - title: "Contact Info"
-    url: /data/contact_info/
+  
+  - title: "Blog"
+    url: /blog/
