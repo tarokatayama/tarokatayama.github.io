@@ -18,7 +18,7 @@ So you want to be ultra light. Oh you wanna be ultralight?! Instead of shelling 
 
 The number I care about most is **calories per ounce (cal/oz)**. If a food doesn't pack enough energy for its weight, it doesn't make the cut.
 
-[Photo from a favorite backpacking trip](/images/IMG_1693.jpeg)
+![Photo from a favorite backpacking trip](/images/IMG_1693.jpeg)
 *Caption: [Wind River Range,  July/2024].*
 
 ---
