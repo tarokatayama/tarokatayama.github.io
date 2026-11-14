@@ -1,237 +1,64 @@
 ---
 layout: default
 permalink: /
-title: "About"
+title: "Taro Katayama"
 author_profile: false
 redirect_from:
   - /about/
   - /about.html
-# Top tabs for the Project Showcase. Edit titles/urls here.
-tabs:
-  - title: "Home"
-    url: /
-  - title: "Fog Monitoring"
-    url: /data/data_viz/
-  - title: "Water Rights Mapping"
-    url: /data/data_viz/
-  - title: "Land Use Change"
-    url: /data/data_viz/
-  - title: "EV Battery Water Footprint"
-    url: /portfolio/
-  - title: "All Projects"
-    url: /portfolio/
+# Picture for the Blog panel. Uses the latest post's `image:` front matter if it has one,
+# otherwise this path. Leave blank to show a plain colored block until you add a photo.
+blog_image: ""
 ---
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap');
-
-:root {
-  --bg: #000;
-  --panel: #101215;
-  --line: #24272c;
-  --text: #ececec;
-  --muted: #9aa0a8;
-  --accent: #0ea1c5;
-  --accent-soft: rgba(14, 161, 197, 0.14);
-  --serif: 'Source Serif 4', Georgia, serif;
-  --sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-}
-
-/* Dark theme for the whole page, including the theme's header and footer */
-html, body { background: var(--bg); color: var(--text); font-family: var(--sans); }
-.masthead { background: var(--bg) !important; border-bottom: 1px solid var(--line); }
-.masthead a, .greedy-nav a, .greedy-nav .site-title { color: var(--text) !important; }
-.greedy-nav { background: var(--bg) !important; }
-.page__footer { background: var(--bg) !important; border-top: 1px solid var(--line); color: var(--muted); }
-.page__footer a, .page__footer-follow a { color: var(--muted) !important; }
-
-.dash { max-width: 1240px; margin: 0 auto; padding: 0 1rem 3rem; box-sizing: border-box; }
-.dash *, .dash *::before, .dash *::after { box-sizing: border-box; }
-.dash a { color: var(--accent); text-decoration: none; }
-.dash a:hover { text-decoration: underline; }
-.dash a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.dash h1, .dash h2, .dash h3 { font-family: var(--serif); color: var(--text); margin: 0; border: 0; }
-.dash p { margin: 0 0 1rem; line-height: 1.6; }
-
-/* Quote strip, like the market bar on Yahoo Finance */
-.strip { display: flex; gap: 2rem; overflow-x: auto; padding: 0.75rem 0; border-bottom: 1px solid var(--line); font-size: 0.85rem; white-space: nowrap; }
-.strip-item span { color: var(--muted); margin-right: 0.5rem; }
-.strip-item strong { font-weight: 600; }
-
-/* Project tabs, like the section tabs on Silver Bulletin */
-.tabs { display: flex; gap: 0.25rem; overflow-x: auto; border-bottom: 1px solid var(--line); margin-bottom: 1.5rem; }
-.tabs a { color: var(--muted); padding: 0.9rem 1rem; font-weight: 500; font-size: 0.95rem; white-space: nowrap; border-bottom: 3px solid transparent; }
-.tabs a:hover { color: var(--text); text-decoration: none; }
-.tabs a.active { color: var(--text); border-bottom-color: var(--accent); }
-
-.grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 1.5rem; align-items: start; }
-.col-main, .col-rail { display: grid; gap: 1.5rem; min-width: 0; }
-.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-
-.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem 1.5rem; min-width: 0; }
-.panel-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--line); }
-.panel-head h2 { font-size: 1.25rem; }
-.panel-head a { font-size: 0.85rem; }
-
-/* About */
-.about-body { display: grid; grid-template-columns: 5fr 4fr; gap: 1.75rem; align-items: start; }
-.about h1 { font-size: 2.1rem; line-height: 1.15; margin-bottom: 1rem; }
-.about p { color: #d4d6d9; }
-.about img { width: 100%; max-height: 420px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); display: block; }
-.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
-.chip { background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 0.25rem 0.75rem; font-size: 0.8rem; font-weight: 500; }
-
-/* Story lists for Blog and Talks */
-.story { padding: 0.75rem 0; border-bottom: 1px solid var(--line); }
-.story:last-child { border-bottom: 0; padding-bottom: 0; }
-.story h3 { font-size: 1.05rem; line-height: 1.3; margin-bottom: 0.25rem; }
-.story h3 a { color: var(--text); }
-.story h3 a:hover { color: var(--accent); text-decoration: none; }
-.meta { color: var(--muted); font-size: 0.8rem; margin-bottom: 0.35rem; }
-.story p { color: #b8bcc2; font-size: 0.9rem; margin: 0; }
-.empty { color: var(--muted); font-size: 0.9rem; }
-
-/* CV */
-.cv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-.cv-grid h3 { font-size: 1rem; margin-bottom: 0.5rem; }
-.cv-item { margin-bottom: 0.9rem; font-size: 0.92rem; line-height: 1.45; }
-.cv-item em { color: var(--muted); font-style: normal; display: block; }
-.btn { display: inline-block; background: var(--accent); color: #001419 !important; font-weight: 600; padding: 0.55rem 1rem; border-radius: 6px; font-size: 0.9rem; }
-.btn:hover { text-decoration: none !important; filter: brightness(1.1); }
-
-/* Right rail */
-.profile h2 { font-size: 1.5rem; margin-bottom: 0.25rem; }
-.profile .role { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
-.profile h3 { font-size: 0.95rem; margin: 1rem 0 0.5rem; }
-.profile ul, .toolkit ul { list-style: none; margin: 0; padding: 0; }
-.profile li { padding: 0.3rem 0; font-size: 0.9rem; border-bottom: 1px solid var(--line); }
-.profile li:last-child { border-bottom: 0; }
-.toolkit li { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid var(--line); font-size: 0.9rem; }
-.toolkit li:last-child { border-bottom: 0; }
-.toolkit li span { color: var(--muted); }
-
-@media (max-width: 960px) {
-  .grid, .row2, .about-body, .cv-grid { grid-template-columns: 1fr; }
-  .about img { max-height: 320px; }
-}
-</style>
+{% include home-styles.html %}
 
 <div class="dash">
 
-  <div class="strip" aria-label="Quick facts">
-    <div class="strip-item"><span>Role</span><strong>Biologist, Cabrillo National Monument</strong></div>
-    <div class="strip-item"><span>Graduate</span><strong>M.E.M., Duke ’23</strong></div>
-    <div class="strip-item"><span>Undergraduate</span><strong>B.A., Colby ’19</strong></div>
-    <div class="strip-item"><span>Languages</span><strong>English, Japanese</strong></div>
-    <div class="strip-item"><span>Based in</span><strong>San Diego, CA</strong></div>
-  </div>
+  {% include home-header.html %}
 
-  <nav class="tabs" aria-label="Project showcase">
-    {% for tab in page.tabs %}
-      <a href="{{ tab.url }}"{% if forloop.first %} class="active" aria-current="page"{% endif %}>{{ tab.title }}</a>
-    {% endfor %}
-  </nav>
+  <div class="cards">
 
-  <div class="grid">
-    <main class="col-main">
-
-      <section class="panel about" id="about">
-        <div class="about-body">
-          <div>
-            <h1>Data-driven answers to water resource questions</h1>
-            <p>I’m an environmental scientist specializing in water resource management, with expertise in geospatial analysis, data visualization, and scientific monitoring. I am currently a Biologist at Cabrillo National Monument, where I leverage my skills in GIS, R programming, and creative science communication to lead multiple natural resource monitoring programs. My experience ranges from analyzing water footprints of electric car batteries to designing fog monitoring systems in drought-prone climates.</p>
-            <p>With a Master’s in Environmental Management from Duke University and a background in wetland restoration and conservation, I’m passionate about addressing water resource challenges through innovative, data-driven approaches.</p>
-          </div>
-          <img src="/images/taro_field.jpeg" alt="Taro in the field">
-        </div>
-      </section>
-
-      <div class="row2">
-        <section class="panel" id="blog">
-          <div class="panel-head"><h2>Blog</h2><a href="/blog/">All posts</a></div>
-          {% assign blog_posts = site.categories.blog %}
-          {% if blog_posts %}
-            {% for post in blog_posts limit:3 %}
-              <div class="story">
-                <div class="meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncate: 110 }}</p>{% endif %}
-              </div>
-            {% endfor %}
-          {% else %}
-            <p class="empty">No posts yet.</p>
-          {% endif %}
-        </section>
-
-        <section class="panel" id="talks">
-          <div class="panel-head"><h2>Talks</h2><a href="/talks/">All talks</a></div>
-          {% assign recent_talks = site.talks | sort: "date" | reverse %}
-          {% if recent_talks.size > 0 %}
-            {% for talk in recent_talks limit:3 %}
-              <div class="story">
-                <div class="meta">{{ talk.date | date: "%b %-d, %Y" }}{% if talk.venue %} · {{ talk.venue }}{% endif %}</div>
-                <h3><a href="{{ talk.url }}">{{ talk.title }}</a></h3>
-                {% if talk.location %}<p>{{ talk.location }}</p>{% endif %}
-              </div>
-            {% endfor %}
-          {% else %}
-            <p class="empty">No talks listed yet.</p>
-          {% endif %}
-        </section>
+    <section class="card">
+      <div>
+        <h2><a href="/about-me/">About me</a></h2>
+        <p>Environmental scientist working on water resources, geospatial analysis, and monitoring at Cabrillo National Monument.</p>
       </div>
+      <img src="/images/taro_field.jpeg" alt="Taro in the field">
+    </section>
 
-      <section class="panel" id="cv">
-        <div class="panel-head"><h2>CV and résumé</h2><a href="/files/TARO_KATAYAMA_CV.pdf">Open PDF</a></div>
-        <div class="cv-grid">
-          <div>
-            <h3>Education</h3>
-            <div class="cv-item">Master of Environmental Management, Water Resources Management<em>Duke University, Nicholas School of the Environment, May 2023</em></div>
-            <div class="cv-item">Bachelor of Arts, Environmental Science<em>Colby College, May 2019</em></div>
-          </div>
-          <div>
-            <h3>Current role</h3>
-            <div class="cv-item">Biologist<em>Cabrillo National Monument, National Park Service</em></div>
-            <a class="btn" href="/files/TARO_KATAYAMA_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-          </div>
-        </div>
-      </section>
+    {% assign latest = site.categories.blog.first %}
+    {% assign blog_img = latest.image | default: page.blog_image %}
+    <section class="card">
+      <div>
+        <h2><a href="/blog/">Blog</a></h2>
+        {% if latest %}
+          <p>{{ latest.title }}</p>
+          <div class="meta">{{ latest.date | date: "%b %-d, %Y" }}</div>
+        {% else %}
+          <p>No posts yet.</p>
+        {% endif %}
+      </div>
+      {% if blog_img != "" and blog_img %}
+        <img src="{{ blog_img }}" alt="">
+      {% else %}
+        <div class="img-blank" aria-hidden="true"></div>
+      {% endif %}
+    </section>
 
-    </main>
+    {% assign recent_talks = site.talks | sort: "date" | reverse %}
+    <section class="card" style="grid-template-columns: 1fr;">
+      <div>
+        <h2><a href="/talks/">Talks</a></h2>
+        {% if recent_talks.size > 0 %}
+          {% for talk in recent_talks limit:3 %}
+            <div class="talk-line">{{ talk.title }}</div>
+          {% endfor %}
+        {% else %}
+          <p>No talks listed yet.</p>
+        {% endif %}
+      </div>
+    </section>
 
-    <aside class="col-rail">
-
-      <section class="panel profile">
-        <h2>Taro Katayama</h2>
-        <div class="role">Biologist, Cabrillo National Monument<br>San Diego, CA</div>
-
-        <h3>Career interests</h3>
-        <ul>
-          <li>Water footprint analysis and sustainability</li>
-          <li>Monitoring program design and implementation</li>
-          <li>Geospatial analysis of water resources</li>
-          <li>Climate resilience and adaptation</li>
-        </ul>
-
-        <h3>Contact</h3>
-        <ul>
-          <li><a href="mailto:tarokatayama1@gmail.com">tarokatayama1@gmail.com</a></li>
-          <li><a href="https://linkedin.com/in/taro-katayama" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="/data/contact_info/">More ways to reach me</a></li>
-        </ul>
-      </section>
-
-      <section class="panel toolkit">
-        <div class="panel-head"><h2>Toolkit</h2></div>
-        <ul>
-          <li>R and R Shiny <span>Analysis</span></li>
-          <li>Python <span>Analysis</span></li>
-          <li>ArcGIS Pro <span>Geospatial</span></li>
-          <li>ArcGIS Online Dashboards <span>Geospatial</span></li>
-          <li>Survey123 <span>Field data</span></li>
-          <li>GitHub and Markdown <span>Publishing</span></li>
-        </ul>
-      </section>
-
-    </aside>
   </div>
 </div>

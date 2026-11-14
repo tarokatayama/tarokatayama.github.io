@@ -1,0 +1,15 @@
+# Buttons shown under your name on the home page and About me page.
+# Edit titles and urls here. "external: true" opens the link in a new tab.
+- title: "Home"
+  url: /
+- title: "GIS Projects"
+  url: /data/data_viz/
+- title: "Writing Samples"
+  url: /writing/
+- title: "Publications"
+  url: /publications/
+- title: "Fun Projects"
+  url: /fun-projects/
+- title: "CV / Résumé"
+  url: /files/TARO_KATAYAMA_CV.pdf
+  external: true
