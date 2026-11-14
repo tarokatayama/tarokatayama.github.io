@@ -15,9 +15,10 @@ toc_sticky: true
 ---
 
 So you want to be ultra light. Oh you wanna be ultralight?! Instead of shelling out 1000s of dollars, all you have to do is NOT carry water. I am playing.... but only a little bit. Water is the heaviest thing you will carry, at about 2.2lbs per liter. I know crazy that I am combining metric and imperial systems. But hear me out that's one nalgene full of water. Now imagine the weight of 2 nalgene's bruh. HEAVY. So next time you think of spending that guap to shave a few oz of weight, just remember that maybe you can also get that much weight savings if you are smart with filling up your water. Alright all this being said, food is also super heavy. But not only is it heavy, but it also takes up a shit ton of space. When you have to fill food in a bear-canister for a long backpacking trip, the weight and volume become very important.
+
 The number I care about most is **calories per ounce (cal/oz)**. If a food doesn't pack enough energy for its weight, it doesn't make the cut.
 
-[Photo from a favorite backpacking trip](/images/IMG_1693.jpg)
+[Photo from a favorite backpacking trip](/images/IMG_1693.jpeg)
 *Caption: [Wind River Range,  July/2024].*
 
 ---
@@ -32,25 +33,12 @@ A good rule of thumb for backpacking food is **100+ calories per ounce** (about 
 cal/oz = total calories ÷ weight in ounces
 ```
 
-Example: a Payday bar is ~240 cal at 1.85 oz, which is about 130 cal/oz.
+Example: a Payday bar is ~240 cal at 1.85 oz, which is about 130 cal/oz. I love payday bars.
 
 **Daily food target:** about 1.5–2.5 lb of food per person per day. Hitting that range with enough calories means you need to hunt for dense foods.
 
----
+With the basic calorie/ weight calculations out of the way here are some meals and snacks I personally have really enjoyed over the years. 
 
-## Trips I've Been On
-
-| Trip | Location | Dates | Days | Notes |
-|------|----------|-------|------|-------|
-| [Trip 1] | [Location] | [Date] | [#] | [Highlights] |
-| [Trip 2] | [Location] | [Date] | [#] | [Highlights] |
-| [Trip 3] | [Location] | [Date] | [#] | [Highlights] |
-
-![Trip 1 photo](/images/backpacking-trip-1.jpg)
-*[Caption]*
-
-![Trip 2 photo](/images/backpacking-trip-2.jpg)
-*[Caption]*
 
 ---
 
