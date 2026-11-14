@@ -14,10 +14,11 @@ toc_label: "On This Page"
 toc_sticky: true
 ---
 
-Food is the heaviest thing I carry that I actually *consume*, so it's where I can save the most weight over a trip. The number I care about most is **calories per ounce (cal/oz)**. If a food doesn't pack enough energy for its weight, it doesn't make the cut.
+So you want to be ultra light. Oh you wanna be ultralight?! Instead of shelling out 1000s of dollars, all you have to do is NOT carry water. I am playing.... but only a little bit. Water is the heaviest thing you will carry, at about 2.2lbs per liter. I know crazy that I am combining metric and imperial systems. But hear me out that's one nalgene full of water. Now imagine the weight of 2 nalgene's bruh. HEAVY. So next time you think of spending that guap to shave a few oz of weight, just remember that maybe you can also get that much weight savings if you are smart with filling up your water. Alright all this being said, food is also super heavy. But not only is it heavy, but it also takes up a shit ton of space. When you have to fill food in a bear-canister for a long backpacking trip, the weight and volume become very important.
+The number I care about most is **calories per ounce (cal/oz)**. If a food doesn't pack enough energy for its weight, it doesn't make the cut.
 
-![Photo from a favorite backpacking trip](/images/backpacking-trip-1.jpg)
-*Caption: [Trip name, location, month/year].*
+[Photo from a favorite backpacking trip](/images/IMG_1693.jpg)
+*Caption: [Wind River Range,  July/2024].*
 
 ---
 
