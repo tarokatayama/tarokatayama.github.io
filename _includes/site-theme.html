@@ -33,11 +33,19 @@ code, pre, kbd, .highlight, .highlight pre { background: #16181c !important; col
 .page__footer { background: var(--bg) !important; border-top: 1px solid var(--line); color: var(--muted); }
 .page__footer a, .page__footer-follow a, .page__footer-copyright { color: var(--muted) !important; }
 
-/* Sidebar on pages that still use it */
-.sidebar .author__name { color: var(--text) !important; }
-.author__urls-wrapper button { background: var(--panel) !important; color: var(--text) !important; border: 1px solid var(--line) !important; }
-.author__urls { background: var(--panel) !important; border: 1px solid var(--line) !important; }
-.author__urls li a { color: var(--text) !important; }
+/* Remove the author profile sidebar (photo, name, titles) on every page,
+   and let the page content fill the width it freed up */
+.sidebar, .author__avatar, .author__content, .author__urls-wrapper { display: none !important; }
+.page, .archive, .page__related, .page__comments {
+  float: none !important;
+  width: 100% !important;
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  box-sizing: border-box;
+}
 
 /* Cards that carry their own light styling on the GIS portfolio and contact pages */
 .portfolio-item, .contact-card { background: var(--panel) !important; border: 1px solid var(--line); box-shadow: none !important; }
