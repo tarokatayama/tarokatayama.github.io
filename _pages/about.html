@@ -9,8 +9,8 @@ redirect_from:
 # Pictures for the side panels. The Blog panel uses the latest post's `image:` front matter
 # if it has one, otherwise blog_image. Talks uses the latest talk's `image:`, otherwise
 # talks_image. Leave blank to show a plain colored block until you add a photo.
-blog_image: ""
-talks_image: ""
+blog_image: "/images/IMG_4577.jpeg"
+talks_image: "/images/your_talk_photo.jpeg"
 ---
 
 {% assign latest_post = site.categories.blog.first %}
@@ -30,7 +30,7 @@ talks_image: ""
 
     <article class="story story--blog">
       {% if blog_img != "" and blog_img %}
-        <img class="story__img" src="/images/IMG_4577.jpeg"alt="Hiker with mountain in background">
+        <img class="story__img" src="{{ blog_img }}" alt="Hiker with mountain in background">
       {% else %}
         <div class="story__img story__img--blank" aria-hidden="true"></div>
       {% endif %}
@@ -40,7 +40,7 @@ talks_image: ""
 
     <article class="story story--talks">
       {% if talk_img != "" and talk_img %}
-        <img class="story__img" src="/images/Taro_field.jpeg" alt="">
+        <img class="story__img" src="/{{ talk_img }}" alt="">
       {% else %}
         <div class="story__img story__img--blank" aria-hidden="true"></div>
       {% endif %}
