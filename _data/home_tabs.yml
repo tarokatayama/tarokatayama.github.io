@@ -5,9 +5,9 @@
 - title: "GIS Projects"
   url: /data/data_viz/
 - title: "Talks"
-  url: /_talks/
+  url: /talks/
 - title: "Fun Projects"
-  url: /fun-projects/
+  url: /pages/portfolio.html
 - title: "CV / Résumé"
   url: /files/TARO_KATAYAMA_CV.pdf
   external: true
