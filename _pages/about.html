@@ -40,7 +40,7 @@ talks_image: "/images/IMG_1693.jpeg"
 
     <article class="story story--talks">
       {% if talk_img != "" and talk_img %}
-        <img class="story__img" src="/{{ talk_img }}" alt="">
+        <img class="story__img" src="{{ talk_img }}" alt="">
       {% else %}
         <div class="story__img story__img--blank" aria-hidden="true"></div>
       {% endif %}
