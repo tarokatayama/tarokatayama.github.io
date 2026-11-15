@@ -4,8 +4,8 @@
   url: /
 - title: "GIS Projects"
   url: /data/data_viz/
-- title: "Writing"
-  url: /writing/
+- title: "Talks"
+  url: /_talks/Talks.md
 - title: "Fun Projects"
   url: /fun-projects/
 - title: "CV / Résumé"
