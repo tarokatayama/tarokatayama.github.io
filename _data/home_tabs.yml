@@ -1,13 +1,11 @@
-# Buttons shown under your name on the home page and About me page.
+# Buttons shown under your name on every page.
 # Edit titles and urls here. "external: true" opens the link in a new tab.
 - title: "Home"
   url: /
 - title: "GIS Projects"
   url: /data/data_viz/
-- title: "Writing Samples"
+- title: "Writing"
   url: /writing/
-- title: "Publications"
-  url: /publications/
 - title: "Fun Projects"
   url: /fun-projects/
 - title: "CV / Résumé"
