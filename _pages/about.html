@@ -6,59 +6,47 @@ author_profile: false
 redirect_from:
   - /about/
   - /about.html
-# Picture for the Blog panel. Uses the latest post's `image:` front matter if it has one,
-# otherwise this path. Leave blank to show a plain colored block until you add a photo.
+# Pictures for the side panels. The Blog panel uses the latest post's `image:` front matter
+# if it has one, otherwise blog_image. Talks uses the latest talk's `image:`, otherwise
+# talks_image. Leave blank to show a plain colored block until you add a photo.
 blog_image: ""
+talks_image: ""
 ---
 
-{% include home-styles.html %}
+{% assign latest_post = site.categories.blog.first %}
+{% assign blog_img = latest_post.image | default: page.blog_image %}
+{% assign recent_talks = site.talks | sort: "date" | reverse %}
+{% assign latest_talk = recent_talks.first %}
+{% assign talk_img = latest_talk.image | default: page.talks_image %}
 
-<div class="dash">
+<div class="dash wide">
+  <div class="stories">
 
-  {% include home-header.html %}
+    <article class="story story--main">
+      <img class="story__img" src="/images/taro_field.jpeg" alt="Taro in the field">
+      <h2 class="story__title"><a href="/about-me/">About me</a></h2>
+      <p class="story__blurb">Environmental scientist working on water resources, geospatial analysis, and monitoring at Cabrillo National Monument.</p>
+    </article>
 
-  <div class="cards">
-
-    <section class="card">
-      <div>
-        <h2><a href="/about-me/">About me</a></h2>
-        <p>Environmental scientist working on water resources, geospatial analysis, and monitoring at Cabrillo National Monument.</p>
-      </div>
-      <img src="/images/taro_field.jpeg" alt="Taro in the field">
-    </section>
-
-    {% assign latest = site.categories.blog.first %}
-    {% assign blog_img = latest.image | default: page.blog_image %}
-    <section class="card">
-      <div>
-        <h2><a href="/blog/">Blog</a></h2>
-        {% if latest %}
-          <p>{{ latest.title }}</p>
-          <div class="meta">{{ latest.date | date: "%b %-d, %Y" }}</div>
-        {% else %}
-          <p>No posts yet.</p>
-        {% endif %}
-      </div>
+    <article class="story story--blog">
       {% if blog_img != "" and blog_img %}
-        <img src="{{ blog_img }}" alt="">
+        <img class="story__img" src="{{ blog_img }}" alt="">
       {% else %}
-        <div class="img-blank" aria-hidden="true"></div>
+        <div class="story__img story__img--blank" aria-hidden="true"></div>
       {% endif %}
-    </section>
+      <h2 class="story__title"><a href="/blog/">Blog</a></h2>
+      <p class="story__blurb">{% if latest_post %}Latest: {{ latest_post.title }}{% else %}No posts yet.{% endif %}</p>
+    </article>
 
-    {% assign recent_talks = site.talks | sort: "date" | reverse %}
-    <section class="card" style="grid-template-columns: 1fr;">
-      <div>
-        <h2><a href="/talks/">Talks</a></h2>
-        {% if recent_talks.size > 0 %}
-          {% for talk in recent_talks limit:3 %}
-            <div class="talk-line">{{ talk.title }}</div>
-          {% endfor %}
-        {% else %}
-          <p>No talks listed yet.</p>
-        {% endif %}
-      </div>
-    </section>
+    <article class="story story--talks">
+      {% if talk_img != "" and talk_img %}
+        <img class="story__img" src="{{ talk_img }}" alt="">
+      {% else %}
+        <div class="story__img story__img--blank" aria-hidden="true"></div>
+      {% endif %}
+      <h2 class="story__title"><a href="/talks/">Talks</a></h2>
+      <p class="story__blurb">{% if latest_talk %}Latest: {{ latest_talk.title }}{% else %}No talks listed yet.{% endif %}</p>
+    </article>
 
   </div>
 </div>
