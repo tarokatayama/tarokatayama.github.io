@@ -1,0 +1,64 @@
+---
+layout: default
+permalink: /gis-portfolio/
+title: "GIS Portfolio"
+author_profile: false
+---
+
+<style>
+  .writing .work .preview.preview--tall { height: 640px; }
+  .writing .work .preview.preview--map { height: 760px; }
+  .writing .work ul { margin: 0.4rem 0 1rem 1.25rem; }
+  .writing .section-heading { margin-top: 2.5rem; }
+  @media (max-width: 700px) {
+    .writing .work .preview.preview--tall { height: 480px; }
+    .writing .work .preview.preview--map { height: 520px; }
+  }
+</style>
+
+<div class="dash wide">
+  <div class="writing">
+    <h1 class="page-title">GIS Portfolio &amp; Visualization</h1>
+
+    <!-- Featured: Waterville Fast Food StoryMap -->
+    <section class="work work--featured" id="fast-food">
+      <span class="badge">Featured StoryMap</span>
+      <h2>Fast Food Density in Waterville, Maine</h2>
+      <p class="meta">ArcGIS StoryMaps · Spatial analysis · Python</p>
+      <p>Using spatial analysis techniques to investigate the urban legend of Waterville as the "Fast Food Capital of the United States."</p>
+
+      <iframe class="preview preview--tall" title="Fast Food Density StoryMap" loading="lazy"
+        src="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931"></iframe>
+
+      <p>This investigation began as a curiosity-driven project to verify a local urban legend in Waterville, Maine. Using geospatial analysis tools, I examined the density of fast food establishments relative to population size to determine if the town truly deserved its unofficial title as the "Fast Food Capital of the United States."</p>
+
+      <h3>Technical approach</h3>
+      <ul>
+        <li>Data collection and cleaning using Python in Jupyter Notebooks</li>
+        <li>Spatial analysis of restaurant density patterns</li>
+        <li>Population-based statistical comparisons with national averages</li>
+        <li>Creation of an engaging, interactive narrative using ArcGIS StoryMaps</li>
+      </ul>
+
+      <p class="links">
+        <a href="https://storymaps.arcgis.com/stories/8902d7ea4fd34bf3b7079dd8e9df9931" target="_blank" rel="noopener">View StoryMap in New Tab</a>
+      </p>
+    </section>
+
+    <h2 id="technical-maps" class="section-heading">Technical Maps &amp; Visualizations</h2>
+
+    <!-- Water Rights Transfer Map -->
+    <section class="work" id="water-rights">
+      <h2>Water Rights Transfer Analysis</h2>
+      <p class="meta">PDF map · John Day Fossil Beds National Monument</p>
+      <p>Water rights transfer maps at John Day Fossil Beds National Monument showcasing advanced spatial analysis techniques and understanding of water transfer rights in Oregon.</p>
+
+      <iframe class="preview preview--map" title="Preview of the Water Rights Transfer map" loading="lazy"
+        src="/files/81943Map1.pdf#toolbar=0&navpanes=0&view=FitH"></iframe>
+
+      <p class="links">
+        <a href="/files/81943Map1.pdf" target="_blank" rel="noopener">Open PDF</a>
+      </p>
+    </section>
+  </div>
+</div>
