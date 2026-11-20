@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /posts/
+title: "Blog"
+author_profile: false
+---
+
+<div class="dash wide">
+  <div class="writing">
+    <h1 class="page-title">Blog</h1>
+
+    {% for post in site.posts %}
+      <section class="work">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+        {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncate: 220 }}</p>{% endif %}
+        <p class="links"><a href="{{ post.url | relative_url }}">Read post</a></p>
+      </section>
+    {% else %}
+      <p>No posts yet.</p>
+    {% endfor %}
+  </div>
+</div>
