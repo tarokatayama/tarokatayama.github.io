@@ -6,8 +6,8 @@
   url: /data/data_viz/
 - title: "Talks"
   url: /talks/
-- title: "Fun Projects"
-  url: /portfolio
+- title: "Blog"
+  url: /posts/
 - title: "CV / Résumé"
   url: /files/Taro_2page_Resume.pdf
   external: true
